@@ -1,0 +1,8 @@
+# 算法与预处理
+numpy>=1.24
+pillow>=9.5
+
+# 草稿生成（步骤 05 / v2_draft）额外需要：
+#   pyJianYingDraft 由 jianying-editor 技能内置提供（vendor/pyJianYingDraft），
+#   不通过 pip 安装，避免版本与技能预期不一致。
+#   详见 README「依赖」一节。

@@ -1,0 +1,1151 @@
+{
+  "name": "同一束光_演唱会60秒_官方资源版",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_us": 60000000,
+  "total_seconds": 60.0,
+  "bpm": 129.2,
+  "videos": {
+    "A": {
+      "path": "footage/venue_wide.mp4",
+      "name": "品紫 · 观众席与大屏",
+      "duration": 37.041667
+    },
+    "B": {
+      "path": "footage/stage_close.mp4",
+      "name": "炽红 · 光束与舞台",
+      "duration": 74.625
+    }
+  },
+  "bgm": {
+    "path": "footage/stage_close.mp4",
+    "source_offset": 0.0,
+    "duration": 60.0,
+    "fade_in": 1.2,
+    "fade_out": 2.5,
+    "note": "演唱会现场原声 B 段 0-60s，129.2 BPM；加场馆混响与低频增强"
+  },
+  "cuts": [
+    0.0,
+    3.901,
+    7.918,
+    11.912,
+    15.836,
+    17.949,
+    20.108,
+    21.989,
+    24.056,
+    26.146,
+    27.864,
+    30.093,
+    32.136,
+    33.994,
+    35.828,
+    39.126,
+    40.147,
+    41.006,
+    42.121,
+    43.073,
+    43.816,
+    44.838,
+    45.952,
+    46.811,
+    48.019,
+    49.157,
+    49.876,
+    50.991,
+    51.966,
+    52.918,
+    53.894,
+    55.147,
+    56.053,
+    57.144,
+    58.073,
+    59.002,
+    60.0
+  ],
+  "segments": [
+    {
+      "i": 0,
+      "start": 0.0,
+      "end": 3.901,
+      "dur": 3.901,
+      "src": "A",
+      "src_start": 0.0,
+      "act": 1,
+      "crop": {
+        "cw": 716,
+        "ch": 402,
+        "x": 26,
+        "y": 0
+      },
+      "zoom": 1.34,
+      "grade": "eq=contrast=1.080:saturation=1.100:gamma=1.050,colorbalance=bs=0.090:bm=0.020:rh=-0.060:bh=0.025,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": {
+        "name": "镜面",
+        "size": 0.72,
+        "rotation": 0.0,
+        "feather": 0.22
+      },
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 1,
+      "start": 3.901,
+      "end": 7.918,
+      "dur": 4.017,
+      "src": "A",
+      "src_start": 4.3,
+      "act": 1,
+      "crop": {
+        "cw": 708,
+        "ch": 398,
+        "x": 76,
+        "y": 0
+      },
+      "zoom": 1.355,
+      "grade": "eq=contrast=1.087:saturation=1.112:gamma=1.050,colorbalance=bs=0.085:bm=0.020:rh=-0.055:bh=0.025,vignette=PI/4.2",
+      "push": {
+        "dir": "out",
+        "amp": 0.057
+      },
+      "transition": {
+        "jy": "叠化",
+        "xfade": "fade",
+        "dur": 0.34
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 2,
+      "start": 7.918,
+      "end": 11.912,
+      "dur": 3.994,
+      "src": "A",
+      "src_start": 8.6,
+      "act": 1,
+      "crop": {
+        "cw": 700,
+        "ch": 394,
+        "x": 130,
+        "y": 0
+      },
+      "zoom": 1.37,
+      "grade": "eq=contrast=1.095:saturation=1.125:gamma=1.050,colorbalance=bs=0.080:bm=0.020:rh=-0.050:bh=0.025,vignette=PI/4.2",
+      "push": {
+        "dir": "in",
+        "amp": 0.057
+      },
+      "transition": null,
+      "mask": null,
+      "effect": {
+        "jy": "光斑虚化",
+        "overlay": "bokeh",
+        "alpha": 0.28
+      },
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 3,
+      "start": 11.912,
+      "end": 15.836,
+      "dur": 3.924,
+      "src": "A",
+      "src_start": 11.3,
+      "act": 1,
+      "crop": {
+        "cw": 694,
+        "ch": 390,
+        "x": 180,
+        "y": 0
+      },
+      "zoom": 1.385,
+      "grade": "eq=contrast=1.102:saturation=1.137:gamma=1.050,colorbalance=bs=0.075:bm=0.020:rh=-0.045:bh=0.025,vignette=PI/4.2",
+      "push": {
+        "dir": "out",
+        "amp": 0.057
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 4,
+      "start": 15.836,
+      "end": 17.949,
+      "dur": 2.113,
+      "src": "A",
+      "src_start": 15.6,
+      "act": 1,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 232,
+        "y": 0
+      },
+      "zoom": 1.399,
+      "grade": "eq=contrast=1.110:saturation=1.149:gamma=1.050,colorbalance=bs=0.070:bm=0.020:rh=-0.040:bh=0.025,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 5,
+      "start": 17.949,
+      "end": 20.108,
+      "dur": 2.159,
+      "src": "B",
+      "src_start": 3.6,
+      "act": 2,
+      "crop": {
+        "cw": 692,
+        "ch": 390,
+        "x": 38,
+        "y": 0
+      },
+      "zoom": 1.387,
+      "grade": "eq=contrast=1.113:saturation=1.165:gamma=1.045,colorbalance=bs=0.026:bm=0.008:rs=0.013:rh=-0.005,vignette=PI/4.2",
+      "push": {
+        "dir": "out",
+        "amp": 0.069
+      },
+      "transition": null,
+      "mask": {
+        "name": "线性",
+        "size": 0.66,
+        "rotation": 0.0,
+        "feather": 0.22
+      },
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 6,
+      "start": 20.108,
+      "end": 21.989,
+      "dur": 1.881,
+      "src": "A",
+      "src_start": 19.9,
+      "act": 2,
+      "crop": {
+        "cw": 688,
+        "ch": 388,
+        "x": 92,
+        "y": 0
+      },
+      "zoom": 1.395,
+      "grade": "eq=contrast=1.116:saturation=1.171:gamma=1.045,colorbalance=bs=0.021:bm=0.006:rs=0.016:rh=0.001,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 7,
+      "start": 21.989,
+      "end": 24.056,
+      "dur": 2.067,
+      "src": "B",
+      "src_start": 8.1,
+      "act": 2,
+      "crop": {
+        "cw": 684,
+        "ch": 384,
+        "x": 148,
+        "y": 0
+      },
+      "zoom": 1.402,
+      "grade": "eq=contrast=1.118:saturation=1.176:gamma=1.045,colorbalance=bs=0.016:bm=0.005:rs=0.018:rh=0.006,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 8,
+      "start": 24.056,
+      "end": 26.146,
+      "dur": 2.09,
+      "src": "B",
+      "src_start": 12.6,
+      "act": 2,
+      "crop": {
+        "cw": 682,
+        "ch": 384,
+        "x": 202,
+        "y": 0
+      },
+      "zoom": 1.409,
+      "grade": "eq=contrast=1.121:saturation=1.182:gamma=1.045,colorbalance=bs=0.012:bm=0.003:rs=0.021:rh=0.012,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": {
+        "jy": "丁达尔光线",
+        "overlay": "beam",
+        "alpha": 0.26
+      },
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 9,
+      "start": 26.146,
+      "end": 27.864,
+      "dur": 1.718,
+      "src": "A",
+      "src_start": 27.4,
+      "act": 2,
+      "crop": {
+        "cw": 678,
+        "ch": 382,
+        "x": 256,
+        "y": 0
+      },
+      "zoom": 1.417,
+      "grade": "eq=contrast=1.124:saturation=1.188:gamma=1.045,colorbalance=bs=0.007:bm=0.001:rs=0.024:rh=0.018,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 10,
+      "start": 27.864,
+      "end": 30.093,
+      "dur": 2.229,
+      "src": "B",
+      "src_start": 20.3,
+      "act": 2,
+      "crop": {
+        "cw": 674,
+        "ch": 380,
+        "x": 48,
+        "y": 0
+      },
+      "zoom": 1.423,
+      "grade": "eq=contrast=1.126:saturation=1.192:gamma=1.045,colorbalance=bs=0.003:bm=-0.001:rs=0.026:rh=0.022,vignette=PI/4.2",
+      "push": {
+        "dir": "in",
+        "amp": 0.069
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 11,
+      "start": 30.093,
+      "end": 32.136,
+      "dur": 2.043,
+      "src": "B",
+      "src_start": 24.8,
+      "act": 2,
+      "crop": {
+        "cw": 670,
+        "ch": 376,
+        "x": 102,
+        "y": 0
+      },
+      "zoom": 1.431,
+      "grade": "eq=contrast=1.129:saturation=1.198:gamma=1.045,colorbalance=bs=-0.002:bm=-0.003:rs=0.029:rh=0.028,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 12,
+      "start": 32.136,
+      "end": 33.994,
+      "dur": 1.858,
+      "src": "A",
+      "src_start": 30.1,
+      "act": 2,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 156,
+        "y": 0
+      },
+      "zoom": 1.439,
+      "grade": "eq=contrast=1.132:saturation=1.204:gamma=1.045,colorbalance=bs=-0.007:bm=-0.005:rs=0.032:rh=0.034,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 13,
+      "start": 33.994,
+      "end": 35.828,
+      "dur": 1.834,
+      "src": "B",
+      "src_start": 32.5,
+      "act": 2,
+      "crop": {
+        "cw": 664,
+        "ch": 374,
+        "x": 210,
+        "y": 0
+      },
+      "zoom": 1.445,
+      "grade": "eq=contrast=1.135:saturation=1.209:gamma=1.045,colorbalance=bs=-0.011:bm=-0.006:rs=0.035:rh=0.039,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 14,
+      "start": 35.828,
+      "end": 39.126,
+      "dur": 3.298,
+      "src": "B",
+      "src_start": 40.2,
+      "act": 2,
+      "crop": {
+        "cw": 662,
+        "ch": 372,
+        "x": 264,
+        "y": 0
+      },
+      "zoom": 1.452,
+      "grade": "eq=contrast=1.137:saturation=1.214:gamma=1.045,colorbalance=bs=-0.015:bm=-0.008:rs=0.037:rh=0.044,vignette=PI/4.2",
+      "push": {
+        "dir": "in",
+        "amp": 0.069
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 15,
+      "start": 39.126,
+      "end": 40.147,
+      "dur": 1.021,
+      "src": "B",
+      "src_start": 44.7,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 168,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.142:saturation=1.224:gamma=1.040,colorbalance=rs=0.041:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": {
+        "jy": "动感模糊",
+        "overlay": "blur",
+        "alpha": 0.0
+      },
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 16,
+      "start": 40.147,
+      "end": 41.006,
+      "dur": 0.859,
+      "src": "B",
+      "src_start": 50.0,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 54,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.144:saturation=1.228:gamma=1.040,colorbalance=rs=0.042:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 17,
+      "start": 41.006,
+      "end": 42.121,
+      "dur": 1.115,
+      "src": "B",
+      "src_start": 56.1,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 278,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.145:saturation=1.231:gamma=1.040,colorbalance=rs=0.043:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 18,
+      "start": 42.121,
+      "end": 43.073,
+      "dur": 0.952,
+      "src": "B",
+      "src_start": 64.6,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 136,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.147:saturation=1.235:gamma=1.040,colorbalance=rs=0.044:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 19,
+      "start": 43.073,
+      "end": 43.816,
+      "dur": 0.743,
+      "src": "B",
+      "src_start": 68.3,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 24,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.149:saturation=1.238:gamma=1.040,colorbalance=rs=0.045:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 20,
+      "start": 43.816,
+      "end": 44.838,
+      "dur": 1.022,
+      "src": "B",
+      "src_start": 4.047,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 248,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.151:saturation=1.241:gamma=1.040,colorbalance=rs=0.045:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 21,
+      "start": 44.838,
+      "end": 45.952,
+      "dur": 1.114,
+      "src": "B",
+      "src_start": 10.239,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 106,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.152:saturation=1.245:gamma=1.040,colorbalance=rs=0.046:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 22,
+      "start": 45.952,
+      "end": 46.811,
+      "dur": 0.859,
+      "src": "A",
+      "src_start": 30.0,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 0,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.154:saturation=1.249:gamma=1.040,colorbalance=rs=0.047:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 23,
+      "start": 46.811,
+      "end": 48.019,
+      "dur": 1.208,
+      "src": "B",
+      "src_start": 13.233,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 216,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.156:saturation=1.252:gamma=1.040,colorbalance=rs=0.048:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 24,
+      "start": 48.019,
+      "end": 49.157,
+      "dur": 1.138,
+      "src": "B",
+      "src_start": 22.463,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 76,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.158:saturation=1.256:gamma=1.040,colorbalance=rs=0.049:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 25,
+      "start": 49.157,
+      "end": 49.876,
+      "dur": 0.719,
+      "src": "B",
+      "src_start": 24.944,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 292,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.160:saturation=1.261:gamma=1.040,colorbalance=rs=0.050:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": {
+        "jy": "动感模糊",
+        "overlay": "blur",
+        "alpha": 0.0
+      },
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 26,
+      "start": 49.876,
+      "end": 50.991,
+      "dur": 1.115,
+      "src": "B",
+      "src_start": 32.24,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 186,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.162:saturation=1.263:gamma=1.040,colorbalance=rs=0.051:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 27,
+      "start": 50.991,
+      "end": 51.966,
+      "dur": 0.975,
+      "src": "B",
+      "src_start": 40.6,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 44,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.164:saturation=1.267:gamma=1.040,colorbalance=rs=0.052:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 28,
+      "start": 51.966,
+      "end": 52.918,
+      "dur": 0.952,
+      "src": "B",
+      "src_start": 44.277,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 268,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.165:saturation=1.271:gamma=1.040,colorbalance=rs=0.053:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 29,
+      "start": 52.918,
+      "end": 53.894,
+      "dur": 0.976,
+      "src": "B",
+      "src_start": 50.401,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 156,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.167:saturation=1.274:gamma=1.040,colorbalance=rs=0.054:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "叠化",
+        "xfade": "fade",
+        "dur": 0.34
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 30,
+      "start": 53.894,
+      "end": 55.147,
+      "dur": 1.253,
+      "src": "B",
+      "src_start": 56.778,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 14,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.169:saturation=1.278:gamma=1.040,colorbalance=rs=0.054:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 31,
+      "start": 55.147,
+      "end": 56.053,
+      "dur": 0.906,
+      "src": "A",
+      "src_start": 4.214,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 238,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.171:saturation=1.282:gamma=1.040,colorbalance=rs=0.056:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": {
+        "jy": "动感模糊",
+        "overlay": "blur",
+        "alpha": 0.0
+      },
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 32,
+      "start": 56.053,
+      "end": 57.144,
+      "dur": 1.091,
+      "src": "B",
+      "src_start": 64.316,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 124,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.173:saturation=1.286:gamma=1.040,colorbalance=rs=0.056:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 33,
+      "start": 57.144,
+      "end": 58.073,
+      "dur": 0.929,
+      "src": "B",
+      "src_start": 71.054,
+      "act": 3,
+      "crop": {
+        "cw": 686,
+        "ch": 386,
+        "x": 0,
+        "y": 0
+      },
+      "zoom": 1.4,
+      "grade": "eq=contrast=1.175:saturation=1.290:gamma=1.040,colorbalance=rs=0.057:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 34,
+      "start": 58.073,
+      "end": 59.002,
+      "dur": 0.929,
+      "src": "B",
+      "src_start": 4.308,
+      "act": 3,
+      "crop": {
+        "cw": 668,
+        "ch": 376,
+        "x": 208,
+        "y": 0
+      },
+      "zoom": 1.438,
+      "grade": "eq=contrast=1.176:saturation=1.293:gamma=1.040,colorbalance=rs=0.058:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": null,
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    },
+    {
+      "i": 35,
+      "start": 59.002,
+      "end": 60.0,
+      "dur": 0.998,
+      "src": "B",
+      "src_start": 10.546,
+      "act": 3,
+      "crop": {
+        "cw": 650,
+        "ch": 366,
+        "x": 94,
+        "y": 0
+      },
+      "zoom": 1.475,
+      "grade": "eq=contrast=1.178:saturation=1.296:gamma=1.040,colorbalance=rs=0.059:rm=0.030:rh=0.070:bs=-0.030:bm=-0.020,vignette=PI/4.2",
+      "push": {
+        "dir": "none",
+        "amp": 0.0
+      },
+      "transition": {
+        "jy": "闪白",
+        "xfade": "fadewhite",
+        "dur": 0.3
+      },
+      "mask": null,
+      "effect": null,
+      "sticker": null,
+      "sfx": null
+    }
+  ],
+  "texts": [
+    {
+      "text": "同 一 束 光",
+      "start": 0.5,
+      "end": 3.3,
+      "size": 15.0,
+      "y": 0.0,
+      "anim_in": "逐字显影",
+      "anim_out": "渐隐"
+    },
+    {
+      "text": "几万人，在等同一句",
+      "start": 3.6,
+      "end": 6.0,
+      "size": 9.0,
+      "y": -0.55,
+      "anim_in": "渐显",
+      "anim_out": "渐隐"
+    },
+    {
+      "text": "然后，第一束光落下来",
+      "start": 16.8,
+      "end": 19.4,
+      "size": 9.0,
+      "y": -0.55,
+      "anim_in": "向上滑动",
+      "anim_out": "渐隐"
+    },
+    {
+      "text": "全场，一起亮了",
+      "start": 38.7,
+      "end": 41.2,
+      "size": 9.0,
+      "y": -0.55,
+      "anim_in": "向上露出",
+      "anim_out": "渐隐"
+    },
+    {
+      "text": "这一夜  ·  不散场",
+      "start": 56.2,
+      "end": 59.7,
+      "size": 12.0,
+      "y": 0.0,
+      "anim_in": "冲屏位移",
+      "anim_out": "渐隐"
+    }
+  ],
+  "filter": null,
+  "transitions_count": 10,
+  "sfx_points": [],
+  "stats": {
+    "segments": 36,
+    "transitions": 10,
+    "effects": 5,
+    "masks": 2,
+    "push_keyframes": 6,
+    "stickers": 0,
+    "sfx_hits": 0,
+    "free_resources_used": [
+      "丁达尔光线",
+      "光斑虚化",
+      "冲屏位移",
+      "动感模糊",
+      "叠化",
+      "向上滑动",
+      "向上露出",
+      "渐显",
+      "渐隐",
+      "线性",
+      "逐字显影",
+      "镜面",
+      "闪白"
+    ]
+  },
+  "resource_integrity": "全部 is_vip=False；资源按画面亮度/饱和度/音乐能量适配，撤除与现场原声打架的官方音效"
+}

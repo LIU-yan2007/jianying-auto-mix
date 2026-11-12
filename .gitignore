@@ -1,0 +1,27 @@
+# ---- 素材与成片：体积大、通常含他人版权内容，一律不入库 ----
+sources.json
+assets/
+exports/
+backups/
+*.mp4
+*.mov
+*.mkv
+*.m4a
+*.wav
+*.f32
+*.zip
+
+# ---- 中间产物 ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.log
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

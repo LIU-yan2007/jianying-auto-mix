@@ -1,0 +1,16 @@
+{
+  "_说明": "复制本文件为 sources.json 并填入你自己的素材。key 只需唯一，脚本不假设一定叫 A/B。",
+  "bgm_source": "B",
+  "videos": [
+    {
+      "key": "A",
+      "path": "~/Videos/concert_wide.mp4",
+      "name": "全景 · 观众席与大屏"
+    },
+    {
+      "key": "B",
+      "path": "~/Videos/concert_stage.mp4",
+      "name": "特写 · 光束与舞台"
+    }
+  ]
+}
