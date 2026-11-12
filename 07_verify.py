@@ -104,7 +104,11 @@ def main():
     frames([0.6, 5.5, 10.5, 15.5, 20.5, 25.5, 30.5, 35.5,
             40.5, 45.5, 50.5, 55.5], 4, "timeline")
     frames([1.6, 4.6, 17.8, 39.8, 57.8, 59.6], 3, "titles")
-    zip_crosscheck()
+    if os.path.isfile(ZIP):
+        zip_crosscheck()
+    else:
+        print(f"  跳过草稿交叉验证：{os.path.basename(ZIP)} 不存在"
+              "（先跑 05_build_draft.py 生成草稿包后再验）")
     print("\n全部验收通过。")
 
 
